@@ -5,14 +5,51 @@
      box-sizing: border-box; /* IE */
 }
 
-/* Clear Class */
+/* Clear */
+
 .clear {
-	clear: both;
+    clear: both;
 }
 
+.sized {
+    margin: 0 auto 0 auto;
+    width: 400px;
+    height: 500px;
+
+}
+
+.alignright {
+    float: right;
+}
+
+.iii {
+    float: left;
+
+
+}
+
+.alignleft {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+body {
+    background: url("/images/ai-gen-asian-girl.jpg");
+    width: 5000px;
+    height: 4000px;
+}
+
+
 #container {
+    float: left;
+
     width: 1000px;
     margin: 0 auto 0 auto;
+}
+
+.small{
+    width: 400px;
+    height: 450x;
 }
 
 #header {
@@ -22,21 +59,29 @@
 
 #main {
     background:aqua;
-    padding: 50px;
+    padding: 20px;
     width: 700px;
-    float: right;
+    float: left;
 }
 
 #sidebar{
+    height: 265px;
     background: pink;
     width: 300px;
-    float: right;
+    float:left;
     padding: 50px;
 }
 
 #footer {
     background: lightsteelblue;
     padding: 50px;
+}
+
+#ai{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
 
