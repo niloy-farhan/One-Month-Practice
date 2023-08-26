@@ -17,19 +17,33 @@ body {
 
 }
 
-h1 {
-    font-size: 100px;
+p{
+
+    font-family: 'Fira Sans', sans-serif;
+
 
 }
 
+h1 {
+    font-size: 100px;
+    font-family: 'Black Ops One', cursive;
+    margin-left: 200px;
+}
+
 h2 {
+
+    margin-bottom: 10px;
     background: #7fba;
     color: black;
     padding: 5px;
     border-radius: 4px;
+    font-family: 'Tilt Prism', cursive;
 }
 
 a {
-    text-decoration: none;
+    font-family: 'Tilt Prism', cursive;
+    font-family: 'Bebas Neue', sans-serif;
 }
+
+
 
