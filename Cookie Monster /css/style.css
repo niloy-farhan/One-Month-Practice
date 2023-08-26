@@ -1,0 +1,35 @@
+body {
+    background: url("../images/4-scene.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+}
+
+#container {
+    background: black;
+    width: 425px;
+    color: white;
+    padding: 5px;
+
+}
+
+h1 {
+    font-size: 100px;
+
+}
+
+h2 {
+    background: #7fba;
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
