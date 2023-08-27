@@ -3,8 +3,18 @@
     margin: 0;
 }
 
-aside {
-    text-aligh: center;
+aside.world{
+    text-align: center;
+    float: inherit;
+}
+
+aside.right {
+    text-align: center;
+    float: inherit;
+}
+
+img.spiral {
+    width: 250px;
 }
 
 

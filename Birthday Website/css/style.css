@@ -154,13 +154,37 @@ aside.world{
 }
 
 aside.right {
-  width: left;
+  float: left;
 
 }
 
+img.spiral{
+  width: 300px;
+  margin-top: -223px;
+}
+
+.clear {
+  clear: both;
+}
+
+
 
 .sizzee {
-  width: 300px;
+  width: 330px;
+}
+
+aside.right {
+  text-align: center;
+  float: inherit;
+}
+
+.gif1 {
+  width: 600px;
+  align: center;
+}
+
+section.padding {
+  padding: 40px;
 }
 
 
