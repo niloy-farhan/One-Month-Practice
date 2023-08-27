@@ -4,8 +4,12 @@
 
 
 body {
-  background: #DDD;
+  background: url("../background/9005249.jpg");
   font-family: 'Open Sans', arial, sans-serif;
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 * {
@@ -42,6 +46,10 @@ ul li {
  * Heading Styles
 */
 
+html {
+  font-size: 100%;
+}
+
 
 h1, h2 {
   font-family: 'Lobster', cursive;
@@ -51,8 +59,7 @@ h1, h2 {
 }
 
 h1 {
-
-  font-size: 16px;
+  font-size: 3.4rem;
 }
 
 h2 {
@@ -64,9 +71,9 @@ h2 {
 */
 
 .container {
+  line-height: 0;
   width: 600px;
   margin: 100px auto;
-  background: #FFF;
 }
 
 
@@ -184,7 +191,29 @@ aside.right {
 }
 
 section.padding {
+  background: #FFF;
   padding: 40px;
+}
+
+section.paddingg {
+  background: #DDD;
+  padding: 40px;
+}
+
+.footer {
+  padding: 20px;
+  align: center;
+  text-align: center;
+  width: 600px;
+  color: white;
+
+  link-color
+
+}
+
+.link {
+  color: #FFFFFF;
+ text-decoration: none;
 }
 
 
